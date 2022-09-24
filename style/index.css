@@ -1,0 +1,34 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  max-width: 500px;
+  height: 700px;
+  background-color: grey;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  margin: auto;
+  font-family: "Bigelow Rules", cursive;
+  font-weight: 400;
+  font-size: 80px;
+  background: radial-gradient(
+    circle,
+    rgb(255, 240, 213) 0%,
+    rgb(218, 192, 157) 31%,
+    rgba(0, 0, 0, 1) 88%,
+    rgba(0, 0, 0, 1) 100%
+  );
+}
+.container_images {
+  display: flex;
+  justify-content: space-between;
+  max-width: 500px;
+  width: 100%;
+  min-height: 100px;
+  align-items: flex-end;
+}
+button {
+  font-family: "Bigelow Rules", cursive;
+  font-weight: 400;
+  font-size: 18px;
+}
